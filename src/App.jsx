@@ -130,7 +130,7 @@ export default function App() {
   return (
     <div className="app-root">
       {/* 1. Promo Announcement */}
-      <TopBanner />
+      {/* <TopBanner /> */}
 
       {/* 2. Header with Navigation & Cart */}
       <Header

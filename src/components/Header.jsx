@@ -37,7 +37,7 @@ export default function Header({
   return (
     <>
       {/* Language / Utility Topbar */}
-      <div className="header-topbar">
+      {/* <div className="header-topbar">
         <div className="container header-topbar-inner">
           <div className="topbar-left">
             <span>Thương hiệu bút ngọc trai & quà tặng chế tác thủ công cao cấp Việt Nam</span>
@@ -60,7 +60,7 @@ export default function Header({
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Navigation Header */}
       <header className={`main-header ${isScrolled ? 'header-sticky' : ''}`}>

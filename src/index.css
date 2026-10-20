@@ -18,10 +18,10 @@
   --border-light: #eeeeee;
   --border-dark: #222222;
   --danger: #d80027;
-  
+
   --font-serif: 'Noto Serif Display', 'Playfair Display', Georgia, serif;
   --font-sans: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  
+
   --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.04);
   --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
   --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.12);
@@ -36,7 +36,9 @@
 }
 
 /* Reset */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -78,12 +80,15 @@ button {
   outline: none;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   font-family: inherit;
   font-size: inherit;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -125,14 +130,14 @@ img {
   margin-bottom: 28px;
 }
 
-.head-title-style::after {
+/* .head-title-style::after {
   content: '';
   display: block;
   width: 48px;
   height: 2px;
   background-color: var(--gold);
   margin: 12px auto 0;
-}
+} */
 
 /* Luxury Button Style */
 .btn-luxury-style {
@@ -197,13 +202,16 @@ img {
   width: 7px;
   height: 7px;
 }
+
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #c5a880;
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #9e7f52;
 }
@@ -220,6 +228,7 @@ img {
   :root {
     --container-px: 16px;
   }
+
   .head-title-style {
     font-size: 22px;
     letter-spacing: 1.5px;

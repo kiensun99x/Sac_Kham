@@ -42,18 +42,18 @@ export const mockNavigation = [
       },
     ],
   },
-  {
-    title: 'Dòng Bút',
-    href: '/collections/dong-but',
-    hasSubmenu: true,
-    isMega: false,
-    items: [
-      { title: 'Bút Bi Khảm Trai', href: '/collections/but-bi' },
-      { title: 'Bút Gel Tinh Xảo', href: '/collections/but-gel' },
-      { title: 'Bút Nước Dạ Bi', href: '/collections/but-nuoc' },
-      { title: 'Bút Máy Kim Hoàn', href: '/collections/but-may' },
-    ],
-  },
+  // {
+  //   title: 'Dòng Bút',
+  //   href: '/collections/dong-but',
+  //   hasSubmenu: true,
+  //   isMega: false,
+  //   items: [
+  //     { title: 'Bút Bi Khảm Trai', href: '/collections/but-bi' },
+  //     { title: 'Bút Gel Tinh Xảo', href: '/collections/but-gel' },
+  //     { title: 'Bút Nước Dạ Bi', href: '/collections/but-nuoc' },
+  //     { title: 'Bút Máy Kim Hoàn', href: '/collections/but-may' },
+  //   ],
+  // },
   {
     title: 'Trang Sức',
     href: '/collections/trang-suc',
@@ -178,17 +178,17 @@ export const mockGiftCategories = [
 export const mockFeaturedCards = [
   {
     id: 'men',
-    title: 'QUÀ TẶNG NAM',
+    title: 'TRANG SỨC',
     image: 'https://theme.hstatic.net/1000345452/1001290055/14/featured_coll_2_1_img.jpg?v=1503',
     link: '/collections/qua-tang-nam',
-    subtitle: 'Đẳng cấp quý ông thành đạt với bút ký & kẹp cà vạt khảm trai độc bản.',
+    // subtitle: 'Đẳng cấp quý ông thành đạt với bút ký & kẹp cà vạt khảm trai độc bản.',
   },
   {
     id: 'women',
-    title: 'QUÀ TẶNG NỮ',
+    title: 'QUÀ TẶNG TRUYỀN THỐNG',
     image: 'https://theme.hstatic.net/1000345452/1001290055/14/featured_coll_2_2_img.jpg?v=1503',
     link: '/collections/qua-tang-nu',
-    subtitle: 'Nét duyên dáng thanh lịch và quyến rũ từ ánh xà cừ ngọc trai tự nhiên.',
+    // subtitle: 'Nét duyên dáng thanh lịch và quyến rũ từ ánh xà cừ ngọc trai tự nhiên.',
   },
 ];
 
