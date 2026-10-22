@@ -108,19 +108,19 @@ export const mockNavigation = [
 export const mockHeroBanners = [
   {
     id: 1,
-    image: 'https://theme.hstatic.net/1000345452/1001290055/14/slider_1.jpg?v=1503',
-    mobileImage: 'https://theme.hstatic.net/1000345452/1001290055/14/slider_1.jpg?v=1503',
-    title: 'LẮC TAY ICONIC VIETNAM',
+    image: './public/images/banners/1.jpg',
+    mobileImage: './public/images/banners/1.jpg',
+    title: 'Sắc Khảm - VIETNAM',
     subtitle: 'Hào khí non sông & Tinh hoa di sản chế tác',
-    link: '/collections/iconic-vietnam',
+    link: '/',
   },
   {
     id: 2,
-    image: 'https://theme.hstatic.net/1000345452/1001290055/14/slider_2.jpg?v=1503',
-    mobileImage: 'https://theme.hstatic.net/1000345452/1001290055/14/slider_2.jpg?v=1503',
-    title: 'BÚT NGỌC TRAI KHUÊ VĂN',
-    subtitle: 'Để Lại Dấu Ấn – Đỉnh cao bút ký nghệ thuật Việt',
-    link: '/collections/khue-van',
+    image: './public/images/banners/2.jpg',
+    mobileImage: './public/images/banners/2.jpg',
+    title: 'Sắc Khảm - VIETNAM',
+    subtitle: 'Hào khí non sông & Tinh hoa di sản chế tác',
+    link: '/',
   },
 ];
 

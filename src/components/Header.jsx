@@ -80,11 +80,11 @@ export default function Header({
               href="/"
               onClick={(e) => handleNavClick(e, '/')}
               className="logo-link"
-              title="BLUS - Để Lại Dấu Ấn"
+            // title="Sắc Khảm"
             >
               <img
-                src="//theme.hstatic.net/1000345452/1001290055/14/logo.png?v=1503"
-                alt="BLUSAIGON"
+                src="../src/assets/Logo - SẮC KHĂM - không slogan.png"
+                alt="Sắc Khảm"
                 width="150"
                 height="49"
                 className="logo-img"
