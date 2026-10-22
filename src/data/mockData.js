@@ -108,16 +108,16 @@ export const mockNavigation = [
 export const mockHeroBanners = [
   {
     id: 1,
-    image: './public/images/banners/1.jpg',
-    mobileImage: './public/images/banners/1.jpg',
+    image: '/images/banners/1.jpg',
+    mobileImage: '/images/banners/1.jpg',
     title: 'Sắc Khảm - VIETNAM',
     subtitle: 'Hào khí non sông & Tinh hoa di sản chế tác',
     link: '/',
   },
   {
     id: 2,
-    image: './public/images/banners/2.jpg',
-    mobileImage: './public/images/banners/2.jpg',
+    image: '/images/banners/2.jpg',
+    mobileImage: '/images/banners/2.jpg',
     title: 'Sắc Khảm - VIETNAM',
     subtitle: 'Hào khí non sông & Tinh hoa di sản chế tác',
     link: '/',

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, User, ShoppingBag, Menu, X, ChevronDown, ChevronRight } from 'lucide-react';
 import { mockNavigation } from '../data/mockData';
+import brandLogo from '../assets/Logo - SẮC KHĂM - không slogan.png';
 
 export default function Header({
   cartCount,
@@ -83,7 +84,7 @@ export default function Header({
             // title="Sắc Khảm"
             >
               <img
-                src="../src/assets/Logo - SẮC KHĂM - không slogan.png"
+                src={brandLogo}
                 alt="Sắc Khảm"
                 width="150"
                 height="49"
